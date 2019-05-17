@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.events">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".EditEventActivity"
+            android:label="Edit Activity"></activity>
+        <activity android:name=".viewactivitydetail"
+            android:label="EventActivity Detail"/>
+        <activity
+            android:name=".EventsActivityInsertion"
+            android:label="@string/title_activity_events_insertion"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".Splash">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Fragmentuse"
+            android:label="@string/title_activity_fragmentuse"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ViewEventdetails"
+            android:label="Events details" />
+        <activity
+            android:name=".UpdateEvent"
+            android:label="EditEvents" />
+        <activity android:name=".Event" /> <!-- <activity android:name=".EventAdapter"></activity> -->
+        <!-- <activity android:name=".EventListing"></activity> -->
+        <activity android:name=".EventsInsertion" /> <!-- <activity -->
+        <!-- android:name=".Eventsinsertion" -->
+        <!-- &lt;!&ndash;android:label="@string/title_activity_eventsinsertion"&ndash;&gt; -->
+        <!-- android:theme="@style/AppTheme.NoActionBar" /> -->
+        <activity android:name=".MainActivity" />
+    </application>
+
+</manifest>

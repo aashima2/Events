@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--<?xml version="1.0" encoding="utf-8"?>-->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:layout_marginTop="10dp"
+    >
+    <!--tools:context=".EventListing"-->
+
+
+
+    <TextView
+        android:id="@+id/Events"
+        android:textStyle="bold"
+        android:layout_width="191dp"
+        android:layout_height="41dp"
+        android:layout_alignParentLeft="true"
+        android:text="TextView"
+        android:textColor="@color/design_default_color_primary"
+        android:textSize="27dp" />
+
+
+    <ImageButton
+        android:id="@+id/Edit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+      android:layout_toLeftOf="@id/Delete"
+        app:srcCompat="@android:drawable/ic_menu_edit" />
+
+    <ImageButton
+        android:id="@+id/Delete"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+    android:layout_alignParentRight="true"
+        app:srcCompat="@android:drawable/ic_menu_delete" />
+        <!--android:layout_marginBottom="129dp"-->
+
+
+</RelativeLayout>

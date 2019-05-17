@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal"
+    android:layout_marginTop="10dp"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/EventsActivity"
+        android:textStyle="bold"
+        android:layout_width="191dp"
+        android:layout_height="41dp"
+        android:layout_alignParentLeft="true"
+        android:text="TextView"
+        android:textColor="@color/design_default_color_primary"
+        android:textSize="27dp" />
+
+
+    <!--<ImageButton-->
+        <!--android:id="@+id/EditActivity"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_toLeftOf="@id/DeleteActivity"-->
+        <!--app:srcCompat="@android:drawable/ic_menu_edit" />-->
+
+    <!--<ImageButton-->
+        <!--android:id="@+id/DeleteActivity"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_alignParentRight="true"-->
+        <!--app:srcCompat="@android:drawable/ic_menu_delete" />-->
+
+
+</RelativeLayout>

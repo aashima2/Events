@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Events</string>
+    <string name="title_activity_eventsinsertion">Eventsinsertion</string>
+    <string name="title_activity_fragmentuse">Fragmentuse</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_events_insertion">EventsActivityInsertion</string>
+</resources>
